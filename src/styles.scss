@@ -1,0 +1,20 @@
+// Import Bootstrap core SCSS files
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+
+// Add custom theme colors
+$theme-colors: map-merge(
+  $theme-colors,
+  (
+    "coffee-brown": #6f4e37, 
+    "ocean-blue": #1e90ff ,
+  "light-coffee" : #9f6565,
+  "li-coffee" : #FAB35C,
+
+    "dark-coffee": #4b2e2b
+  )
+
+);
+
+// Import Bootstrap
+@import "bootstrap/scss/bootstrap";

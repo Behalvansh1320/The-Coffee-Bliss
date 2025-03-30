@@ -1,0 +1,53 @@
+/* Hero Section */
+.hero {
+    background: url("https://source.unsplash.com/1600x900/?coffee-shop") center/cover;
+    height: 70vh;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .hero .btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+  }
+  
+  /* Featured Items */
+  .featured {
+    margin: 50px 0;
+  }
+  
+  .featured h2 {
+    margin-bottom: 30px;
+  }
+  
+  .featured img {
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Testimonials */
+  .testimonials {
+    padding: 50px 20px;
+  }
+  
+  .testimonials p {
+    font-style: italic;
+    font-size: 1.2rem;
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 50px 20px;
+    background: #333;
+    color: white;
+  }
+  
