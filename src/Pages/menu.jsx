@@ -16,7 +16,7 @@ const Menu = () => {
       </div>
 
       {/* Menu Content */}
-      <div className="container position-relative py-5">
+      <div className="container w-90 position-relative py-5">
         <h2 className="mb-4">Our Menu</h2>
         <div className="row">
           {menuData.map((item) => (
