@@ -35,17 +35,10 @@ function Home() {
             </section>
         </div>
       </section>
-      {/* Testimonials Section */}
       <section className="testimonials bg-light text-center">
         <h2>What Our Customers Say</h2>
         <p>“Best coffee shop in town! The ambiance is fantastic.” – Vansh</p>
         <p>“The espresso is just perfect. Highly recommended!” – Vanshika</p>
-      </section>
-
-      {/* Contact Section */}
-      <section className="contact text-center">
-        <h2>Visit Us</h2>
-        <p>h.no52 , new green field , amritsar</p>
       </section>
     </div>
   );
